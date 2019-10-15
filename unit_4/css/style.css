@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	font-weight: light;
+	line-height: 1.5;
+	padding: 20px;
+}
+
+hr {
+	margin: 10px 0;
+}
+
+ul {
+	list-style-type: none;
+	color: #CCEDFF;
+}
+
+h1 {
+	color: #BFF205;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 30pt;
+	letter-spacing: 5px;
+	text-align: left;
+}
+
+h2 {
+	color: #FA1EA5;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 16pt;
+	text-align: center;
+}
+
+p {
+	color: #CCEDFF;
+	padding: 10px 0;
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+	font-style: bold;
+}
+
+a:link {
+	color: #59C4FF;
+}
+
+a:visited {
+	color: #59C4FF;
+}
+
+a:focus {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+}
+
+em {
+	font-weight: bolder;
+	color: #FA1EA5;
+}
+
+.photolink {
+	width: 33.33%;
+	border: 5px groove gray;
+	padding: 5px;
+	float: left;
+}
+
+#head {
+	color: #FFFFFF;
+	font-family: 'Gruppo', cursive;
+	font-size: 40pt;
+	line-height: 1;
+	letter-spacing: 1px;
+	padding: 0px;
+}
+
+#subhead {
+	color: #11DEFF;
+	font-family: 'Gruppo', cursive;
+	font-size: 18pt;
+	line-height: 1;
+	letter-spacing: 5px;
+	padding: 0 0 30px 0;
+}
