@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+	display: block;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	font-weight: light;
+	
+	background-color: #000000;
+	border: 1px black solid;
+	padding: 20x;
+}
+
+h1 {
+	color: #000000;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 3em;
+	letter-spacing: 5px;
+	text-align: left;
+	padding: 10px 0;
+}
+
+h2 {
+	color: #000000;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 16pt;
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+
+h3 {
+	color: #000000;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 16pt;
+}
+
+p {
+	color: #000000;
+	padding: 10px 0;
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+	color: #000000;
+	padding: 10px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: underline;
+	font-style: bold;
+	color: #000000
+}
+
+em {
+	font-weight: bolder;
+	color: #000000;
+}
+
+header {
+	display: block;
+	
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20x;
+}
+
+nav {
+	display: inline;
+	float: right;
+	
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20x;
+}
+
+section {
+		
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20x;
+}
+
+article {
+	
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20x;
+}
+
+aside {
+	float: right;
+	width: 33%;
+	text-align: right;
+	
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20x;
+}
+
+footer {
+		
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20x;
+}
+
+.navbutton {
+	background-color: rgba(0,0,0,0);
+	border-color: #BFF205;	
+	color: #BFF205;
+	padding: 4px;
+	border-radius: 2px;
+}
+
+.photolink {
+	width: 33.33%;
+	border: none;
+	padding: 20px;
+	float: left;
+}
+
+#heading {
+	color: #FFFFFF;
+	font-family: 'Gruppo', cursive;
+	font-size: 4em;
+	line-height: 1;
+	letter-spacing: 5px;
+	padding: 10px;
+}
+
+#subheading {
+	color: #11DEFF;
+	font-family: 'Gruppo', cursive;
+	font-size: 2em;
+	line-height: 1;
+	letter-spacing: 5px;
+	padding: 0 0 30px 10px;
+}
