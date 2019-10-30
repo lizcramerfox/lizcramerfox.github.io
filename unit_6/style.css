@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	display: block;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+}
+
+h1 {
+	color: #BFF205;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 3em;
+	letter-spacing: 5px;
+	text-align: left;
+	padding: .3em 0;
+}
+
+h2 {
+	color: #FA1EA5;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 16pt;
+	text-align: center;
+	padding: .25em 0;
+}
+
+h3 {
+	color: #FA1EA5;
+	font-family: 'Montserrat', sans-serif;
+	font-size:	10pt;
+}
+
+p {
+	color: #CCEDFF;
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+	color: #CCEDFF;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	font-style: bold;
+	color: #59C4FF
+}
+
+header {
+	display: block;
+	padding: 1em 1em 20em 1em;
+	background-image: url("images/egoprov_07.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 100%;
+}
+
+nav {
+	display: inline;
+	float: right;
+	padding: 1em;
+}
+
+section {
+	width: 50%;
+	margin: auto;
+	padding: 2em 0;
+}
+
+footer {
+	padding: 10px;
+}
+
+.navbutton {
+	background-color: rgba(0,0,0,0);
+	border-color: #BFF205;	
+	color: #BFF205;
+	padding: 4px;
+	border-radius: 2px;
+}
+
+.photolink {
+	width: 33.33%;
+	border: none;
+	padding: .25em;
+	float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#heading {
+	color: #FFFFFF;
+	font-family: 'Gruppo', cursive;
+	font-size: 4em;
+	letter-spacing: 5px;
+}
+
+#subheading {
+	color: #11DEFF;
+	font-family: 'Gruppo', cursive;
+	font-size: 2em;
+	letter-spacing: 5px;
+}
+
+#left {
+	background-color: #000;
+    float: left;
+    width: 30%;
+    padding: 2em 0 0 0;   
+}
+
+#right {
+    background-color: #000;
+   	float: right;   
+    width: 68%;
+    padding: 2em 0 0 1.5em;   
+}
+
+#artists {
+	list-style:	none;
+	color: #11DEFF;
+	font-family: 'Gruppo', sans-serif;
+	font-size: 16pt;
+	line-height: 1.5;
+}
