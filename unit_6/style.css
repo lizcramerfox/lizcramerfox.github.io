@@ -35,7 +35,8 @@ h2 {
 h3 {
 	color: #FA1EA5;
 	font-family: 'Montserrat', sans-serif;
-	font-size:	10pt;
+	font-size: 10pt;
+	padding: .25em 0;
 }
 
 p {
@@ -126,14 +127,14 @@ footer {
 	background-color: #000;
     float: left;
     width: 30%;
-    padding: 2em 0 0 0;   
+    padding: 1em 0 0 0;   
 }
 
 #right {
     background-color: #000;
    	float: right;   
     width: 68%;
-    padding: 2em 0 0 1.5em;   
+    padding: 1em 0 0 1.5em;   
 }
 
 #artists {
@@ -141,5 +142,6 @@ footer {
 	color: #11DEFF;
 	font-family: 'Gruppo', sans-serif;
 	font-size: 16pt;
-	line-height: 1.5;
+	line-height: 1.1;
+	padding: .25em 0;
 }
