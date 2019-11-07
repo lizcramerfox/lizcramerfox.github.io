@@ -12,22 +12,27 @@ body {
 	background-color: #000000;
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 10pt;
+	font-size: 14px;
+	padding: 1em;
+}
+
+section {
+	padding: 5em .5em;
 }
 
 h1 {
 	color: #BFF205;
 	font-family: 'Gruppo', sans-serif;
-	font-size: 3em;
+	font-size: 4em;
 	letter-spacing: 5px;
 	text-align: left;
-	padding: .3em 0;
+	padding: .25em;
 }
 
 h2 {
 	color: #FA1EA5;
 	font-family: 'Gruppo', sans-serif;
-	font-size: 16pt;
+	font-size: 1.5em;
 	text-align: center;
 	padding: .25em 0;
 }
@@ -35,13 +40,13 @@ h2 {
 h3 {
 	color: #FA1EA5;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 10pt;
 	padding: .25em 0;
 }
 
 p {
 	color: #CCEDFF;
 	text-align: left;
+	padding: .5em 1em;
 }
 
 ul {
@@ -61,36 +66,36 @@ a {
 
 header {
 	display: block;
-	padding: 1em 1em 20em 1em;
-	background-image: url("images/egoprov_07.jpg");
+	background-image: url("images/egoprov_11.jpg");
 	background-color: black;
-	background-repeat: no-repeat;
-	background-position: top right;
 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30em;
 }
 
 nav {
 	display: inline;
 	float: right;
-	padding: 1em;
-}
-
-section {
-	width: 50%;
-	margin: auto;
-	padding: 2em 0;
+	padding: 2.5em;
 }
 
 footer {
-	padding: 10px;
+	padding: .5em;
 }
 
 .navbutton {
-	background-color: rgba(0,0,0,0);
-	border-color: #BFF205;	
-	color: #BFF205;
-	padding: 4px;
-	border-radius: 2px;
+	background-color: rgba(0,0,0,.5);
+	color: #11DEFF;
+	padding: 1em;
+	border-radius: .25em;
+
+}
+
+.narrow_column {
+	width: 70%;
+	margin: auto;
+	padding: 2em 0;
 }
 
 .photolink {
@@ -98,6 +103,14 @@ footer {
 	border: none;
 	padding: .25em;
 	float: left;
+}
+
+.logo {
+	list-style-type: none;
+	width: 33.33%;
+	float: left;
+	padding: 2em;
+
 }
 
 .clearfix:after {
@@ -111,29 +124,32 @@ footer {
 
 #heading {
 	color: #FFFFFF;
-	font-family: 'Gruppo', cursive;
+	font-family: 'Gruppo', sans-serif;
 	font-size: 4em;
 	letter-spacing: 5px;
+	padding: .25em;
 }
 
 #subheading {
 	color: #11DEFF;
-	font-family: 'Gruppo', cursive;
+	font-family: 'Gruppo', sans-serif;
 	font-size: 2em;
 	letter-spacing: 5px;
+	padding: 0 .5em;
 }
+
 
 #left {
 	background-color: #000;
     float: left;
-    width: 30%;
+    width: 70%;
     padding: 1em 0 0 0;   
 }
 
 #right {
     background-color: #000;
    	float: right;   
-    width: 68%;
+    width: 25%;
     padding: 1em 0 0 1.5em;   
 }
 
@@ -141,7 +157,7 @@ footer {
 	list-style:	none;
 	color: #11DEFF;
 	font-family: 'Gruppo', sans-serif;
-	font-size: 16pt;
+	font-size: 1.75em;
 	line-height: 1.1;
 	padding: .25em 0;
 }

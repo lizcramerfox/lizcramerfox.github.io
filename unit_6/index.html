@@ -7,10 +7,10 @@
 
 <body>
 	<header>
-		<nav>
-			<a href="#"><button type="button" class="navbutton">About</button></a>
-			<a href="#"><button type="button" class="navbutton">Work</button></a>
-			<a href="#"><button type="button" class="navbutton">Contact</button></a>
+		<nav class="clearfix">
+			<a href="#" class="navbutton">About</a>
+			<a href="#" class="navbutton">Work</a>
+			<a href="#" class="navbutton">Contact</a>
 		</nav>
 		<p id="heading">Stephen Cramer Productions</p>
 		<p id="subheading">Lighting Design & Live Performance</p>
@@ -18,12 +18,11 @@
 
 	<section id="about" class="clearfix">
 		<h1>About</h1>
-		<p>Stephen Cramer's live lighting performances and designs create an unforgettable immersive experience.</p>	
-		<div id="two_column">
-			<div id="left">
-				<h3>Past Artists Include:</h3>
-			</div>	 
+		<div id="left">
+			<p>Stephen Cramer's live lighting performances and designs create an unforgettable immersive experience.</p>
+		</div>	 
 			<div id="right">	
+				<h3>Past Artists Include:</h3>
 				<ul id="artists">
 					<li>Lizzo</li>
 					<li>Big Boi</li>
@@ -35,8 +34,8 @@
 					<li>Guster</li>
 					<li>Fidlar</li>
 					<li>Nada Surf</li>
-					<li><h3>and many, many more...</h3></li>
-				</ul>
+				</ul>	
+				<h3>and many, many more...</h3>
 			</div>
 		</div>
 	</section>
@@ -45,38 +44,44 @@
 		<h1>Work</h1>
 			<div id="wrapper" class="clearfix">
 				<div class="photolink">
-					<img src="images/button_concerts.jpg" alt="Click for Concert Photos" title="Concerts">
-					<h2>Live Concerts</h2>
+					<a href="#">
+						<img src="images/button_concerts.jpg" alt="Click for Concert Photos" title="Concerts">
+						<h2>Live Concerts</h2>
+					</a>
 				</div>
 				<div class="photolink">
-					<img src="images/button_nightclubs.jpg" alt="Click for Night Club Photos" title="Night Clubs">
-					<h2>Night Clubs</h2>
+					<a href="#">
+						<img src="images/button_nightclubs.jpg" alt="Click for Night Club Photos" title="Night Clubs">
+						<h2>Night Clubs</h2>
+					</a>
 				</div>
 				<div class="photolink">
-					<img src="images/button_installations.jpg" alt="Click for Installation Photos" title="Installations">
-					<h2>Installations</h2>
+					<a href="#">
+						<img src="images/button_installations.jpg" alt="Click for Installation Photos" title="Installations">
+						<h2>Installations</h2>
+					</a>
 				</div>
 			</div>
 	</section>
 	
-	<section id="venues">
+	<section id="venues" class="clearfix">
 		<h1>Venues</h1>
 			<ul>
-				<li>Paradise Rock Club</li>
-				<li>House of Blues® Boston</li>
-				<li>Fenway Park</li>
-				<li>Brighton Music Hall</li>
-				<li>Hampton Beach Casino Ballroom (Hampton, NH)</li>
-				<li>Foxwoods/MGM Grand Resort Casino (Ledyard, CT)</li>
+				<li class="logo"><a href="#"><img src="images/venue_paradise.jpg" alt="Paradise Rock Club Logo" title="Paradise Rock Club"></a></li>
+				<li class="logo"><a href="#"><img src="images/venue_hob.jpg" alt="House of Blues Boston Logo" title="House of Blues Boston"></a></li>
+				<li class="logo"><a href="#"><img src="images/venue_fenway.jpg" alt="Fenway Park Logo" title="Fenway Park"></a></li>
+				<li class="logo"><a href="#"><img src="images/venue_bmh.jpg" alt="Brighton Music Hall Logo" title="Brighton Music Hall"></a></li>
+				<li class="logo"><a href="#"><img src="images/venue_hampton.jpg" alt="Hampton Beach Casino Ballroom Logo" title="Hampton Beach Casino Ballroom"></a></li>
+				<li class="logo"><a href="#"><img src="images/venue_foxwoods.jpg" alt="Foxwoods/MGM Grand Resort Casino" title="Foxwoods/MGM Grand Resort Casino"></a></li>
 			</ul>
 	</section>
 	
-	<section id="companies">
+	<section id="companies" class="clearfix">
 		<h1>Companies</h1>
 			<ul>
-				<li>Live Nation</li>
-				<li>Crossroads Presents</li>
-				<li>Big Night Entertainment Group (BNEG)</li>
+				<li class="logo"><a href="#"><img src="images/company_livenation.jpg" alt="Live Nation Logo" title="Live Nation"></a></li>
+				<li class="logo"><a href="#"><img src="images/company_crossroads.jpg" alt="Crossroads Presents Logo" title="Crossroads Presents"></a></li>
+				<li class="logo"><a href="#"><img src="images/company_bneg.jpg" alt="BNEG Logo" title="Big Night Entertainment Group"></a></li>
 			</ul>
 	</section>
 	
@@ -91,7 +96,7 @@
 	
 
 	<footer>
-		<a href="#">[Back to Top]</a>
+		<p><a href="#">[Back to Top]</a></p>
 		<p>Web Design by Liz Fox ©2019</p>
 	</footer>
 
